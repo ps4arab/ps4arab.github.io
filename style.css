@@ -1,0 +1,979 @@
+h2 {
+	text-align: center;
+	background-color: white;
+	color: #243455;
+	padding: 5px;
+	margin: 0px;
+	font-size: 15px;
+	font-family: Fantasy, Times, serif;
+	font-weight: 300;
+	font-family: Arial;
+}
+input {
+	width: 170px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #243455;
+	background-color: white;
+	text-align: center;
+	font-size: 7px;
+	border-width: 1px;
+	height: 2px;
+	font-family: Arial;
+}
+
+p {
+	font-size: 8px;
+	padding-top: 5px;
+	color: black;
+	font-weight: bold;
+	font-family: Arial;
+	max-width: 24ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*
+p:hover{
+    overflow: visible; 
+    white-space: normal; 
+}*/
+
+table {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-width: 0px;
+	border-color: #D2D2D2;
+	font-family: Arial;
+}
+tbody {
+	font-size: 10px;
+	padding-top: 5px;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+button {
+	width: 73px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-left: -1.3px;
+	margin-right: -1.3px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #243455;
+	background-color: white;
+	text-align: center;
+	font-size: 5.5px;
+	font-weight: bold;
+	border-width: 1px;
+	border-radius: 5px;
+	font-family: Arial;
+	-webkit-transform: scaleY(1.2);
+    transform: scaleY(1.2);
+}
+.anythingtoscalecontenttoppage:before { 
+	content: "WELCOME TO 0PLAYSTATION.COM";
+}
+.anythingtoscalestyletoppage { 
+	text-align: center;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	background-color: #243455;
+	color: white;
+	font-family: Fantasy, Times, serif;
+	font-weight: 300;
+}
+
+
+
+.newupdates1:after { 
+	content: "Daily Update Game : 5/3/2024 : اخر التحديثات التي تم اضافتها ";
+}
+.newupdates1style { 
+	text-align: center;
+	font-size: 9px;
+	padding-top: 5px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	color: #243455;
+	font-weight: bold;
+	text-decoration: underline;
+	font-family: Arial;
+}
+/*
+.newupdates2:after { 
+	content: "New game (PS4) : Emergency Crew Volcano Eruption";
+}
+.newupdates2style { 
+	text-align: center;
+	font-size: 7px;
+	padding-top: 2px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	color: black;
+	font-weight: bold;
+	font-family: Arial;
+}
+.newupdates3:after { 
+	content: "New game (PS4) : Alisa Developers Cut";
+}
+.newupdates3style { 
+	text-align: center;
+	font-size: 7px;
+	padding-top: 2px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	color: black;
+	font-weight: bold;
+	font-family: Arial;
+}
+.newupdates4:after { 
+	content: "New game (PS4) : Dakar Desert Rally";
+}
+.newupdates4style { 
+	text-align: center;
+	font-size: 7px;
+	padding-top: 2px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	color: black;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.newupdates5:after { 
+	content: "New game (PS4) : Warm Snow";
+}
+.newupdates5style { 
+	text-align: center;
+	font-size: 7px;
+	padding-top: 2px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	color: black;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.newupdates6:after { 
+	content: "New game (PS4) : Emergency Call The Attack Squad";
+}
+.newupdates6style { 
+	text-align: center;
+	font-size: 7px;
+	padding-top: 2px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	color: black;
+	font-weight: bold;
+	font-family: Arial;
+}
+*/
+/*
+.newupdates7:after { 
+	content: "New game (PS5) : Aspulov End of Gods";
+}
+.newupdates7style { 
+	text-align: center;
+	font-size: 7px;
+	padding-top: 2px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	color: black;
+	font-weight: bold;
+	font-family: Arial;
+}
+*/
+/*
+.newupdates8:after { 
+	content: "";
+}
+.newupdates8style { 
+	text-align: center;
+	font-size: 7px;
+	padding-top: 2px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	color: black;
+	font-weight: bold;
+	font-family: Arial;
+}
+*/
+/*
+.newupdates9:after { 
+	content: "";
+}
+.newupdates9style { 
+	text-align: center;
+	font-size: 7px;
+	padding-top: 2px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	color: black;
+	font-weight: bold;
+	font-family: Arial;
+}
+*/
+/*
+.newupdates10:after { 
+	content: "";
+}
+.newupdates10style { 
+	text-align: center;
+	font-size: 7px;
+	padding-top: 2px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	color: black;
+	font-weight: bold;
+	font-family: Arial;
+}
+*/
+
+
+.anythingtoscalecontentfoot:after { 
+	content: "THANKS FOR YOUR VISIT";
+}
+.anythingtoscalestylefoot { 
+	text-align: center;
+	font-size: 10px;
+	padding-top: 5px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	background-color: #243455;
+	color: white;
+	font-family: Arial;
+}
+
+img {
+	width: 108px;
+	height: 140px;
+}
+
+
+
+a {
+	font-size: 7px;
+	font-weight: bold;
+	letter-spacing: -0.50px;
+	font-family: Arial;
+	background-color: #243455;
+}
+/* if screen size is more than 992px */
+body {
+  zoom: 140%;
+}
+
+/* if screen size is less than 992px */
+@media screen and (max-width: 992px) {
+  body {
+    zoom: 100%;
+  }
+}
+
+/* if screen size is less than 600px */
+@media screen and (max-width: 600px) {
+  body {
+    zoom: 65%;
+  }
+}
+
+/* if screen size is less than 500px */
+@media screen and (max-width: 500px) {
+  body {
+    zoom: 60%;
+  }
+}
+
+#submit_form {
+	width: 65px;
+	height: auto;
+	border-radius: 5px;
+	color: #243455;
+	background-color: white;
+	font-size: 6px;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-left: -1px;
+	margin-right: -1px;
+	font-family: Arial;
+	-webkit-transform: scaleY(1.2);
+    transform: scaleY(1.2);
+}
+.videologo {
+	background: rgb(27,33,43);
+	background: linear-gradient(180deg, rgba(27,33,43,1) 11%, rgba(11,15,17,1) 86%, rgba(8,17,20,1) 97%);
+}
+
+a:link    {color:white;}  /* unvisited link  */
+a:visited {color:#D2D2D2;}  /* visited link    */
+a:hover   {color:#D2D2D2;}  /* mouse over link */
+a:active  {color:#D2D2D3;}  /* selected link   */ 
+
+a:link    {text-decoration: none;}   /* unvisited link  */
+a:visited {text-decoration: none;}   /* visited link    */
+a:hover   {text-decoration: none;}  /* mouse over link */
+a:active  {text-decoration: none;}   /* selected link   */ 
+
+a {
+        width: 7px;
+        height: 3px;
+        padding: 2px;
+		margin-bottom: 10px;
+        background: #243455;
+        border: 1px outset #C6C6C6;
+		border-style: outset outset outset outset;
+        color: white;
+        text-align: center;
+		border-radius: 2px;
+		background-color: #243455;
+      }
+
+
+	  
+.gameinline {
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 10px;
+	text-align: center;
+	flex: auto;
+	border: 1px solid #C6C6C6;
+	background-color: #e9ebe9;
+}
+body {
+	text-align: center;
+}
+span {
+	font-size: 8px;
+	padding-top: 5px;
+	color: black;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+/*
+img:hover
+{
+	transition: 0.9s;
+	transform: scale(1.5);
+	transition: transform 0.5s ease-in-out;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+.flip-box {
+  background-color: transparent;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 110px;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+
+/*
+social button
+*/
+
+.footer-text {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}	
+
+
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.social-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  width: 32px;
+  height: 32px;
+  text-decoration: none;
+  border-radius: 100%;
+  background: #fff;
+  text-align: center;
+  background-color: #243455;
+}
+.social-button::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+.social-button:focus, .social-button:hover {
+  color: #fff;
+}
+.social-button:focus::after, .social-button:hover::after {
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  margin-left: calc(-50% - 1px);
+}
+.social-button i,
+.social-button svg {
+  position: relative;
+  z-index: 1;
+  transition: 0.3s;
+}
+.social-button i {
+  font-size: 15.6px;
+}
+.social-button svg {
+  height: 20%;
+  width: 20%;
+}
+.social-button--mail {
+  color: orange;
+}
+.social-button--mail::after {
+  background: orange;
+}
+.social-button--facebook {
+  color: #3b5999;
+}
+.social-button--facebook::after {
+  background: #3b5999;
+}
+.social-button--youtube {
+  color: red;
+}
+.social-button--youtube::after {
+  background: red;
+}
+.social-button--github {
+  color: #6e5494;
+}
+.social-button--github::after {
+  background: #6e5494;
+}
+.social-button--codepen {
+  color: #212121;
+}
+.social-button--codepen::after {
+  background: #212121;
+}
+.social-button--steam {
+  color: #7da10e;
+}
+.social-button--steam::after {
+  background: #7da10e;
+}
+.social-button--snapchat {
+  color: #eec900;
+}
+.social-button--snapchat::after {
+  background: #eec900;
+}
+.social-button--twitter {
+  color: #55acee;
+}
+.social-button--twitter::after {
+  background: #55acee;
+}
+.social-button--instagram {
+  color: brown;
+}
+.social-button--instagram::after {
+  background: brown;
+}
+.social-button--whatsapp {
+  color: green;
+}
+
+.social-button--whatsapp::after {
+  background: green;
+}
+.social-button--tiktok {
+  color: black;
+}
+.social-button--tiktok::after {
+  background: black;
+}
+.social-button--telegram {
+  color: #229ED9;
+}
+.social-button--telegram::after {
+  background: #229ED9;
+}
+.social-button--npmjs {
+  color: #c12127;
+}
+.social-button--npmjs::after {
+  background: #c12127;
+}
+
+.social-button--paypal {
+  color: #3b7bbf;
+}
+
+.social-button--paypal::after {
+  background: #3b7bbf;
+}
+
+/*
+social button
+*/
+
+
+
+
+
+/* fbstories */
+.container-stories {
+  margin: 5px auto;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  height: 95px;
+  width: 135px;
+  background-color: #243455;
+  font-size: 6.5px;
+  color: white;
+  border-width: 1px;
+  border-radius: 5px;
+  border: 1px outset #243455;
+}
+
+.container-stories img, .container-stories video {
+  width: 100%;
+  height: 74px;
+  object-fit: cover;
+  font-size: 7px;
+  color: white;
+}
+.user {
+  z-index: 100;
+  border-radius: 14px;
+  margin-left: 2px;
+  position: absolute;
+  top: 84px;
+  background-size: cover;
+  font-size: 7px;
+  color: white;
+  padding: 0;
+}
+
+.close-btn {
+  position: absolute;
+  right: 10px;
+  top: 22px;
+  width: 14px !important;
+  height: 14px !important;
+  z-index: 1;
+  font-size: 7px;
+  color: white;
+}
+.slick-dots {
+  display: none;
+  font-size: 7px;
+  color: white;
+}
+
+
+/* fbstories */
+
+
+
+
+hr {
+	margin-bottom: 0px;
+	margin-top: 2px;
+}
+
+
+
+img {
+  transform: scale(1);
+}
+
+
+.sponsoring img{
+  width: 130px;
+  height: 40px;
+  transform: inherit;
+  margin-top: 30px;
+}
+
+.sponsoring a{
+  all: initial;
+}
+
+
+
+/* if screen size is more than 1920px */
+.logostyle { 
+	width: 100%;
+	height: 40px;
+  position: fixed;
+  z-index: 9999;
+  background-size: 200px;
+  background-color: #243455;
+  margin: 0px;
+  margin-top: -2px;
+}
+
+.logohd {
+	width: 30px;
+	height: 30px;
+  float: center;
+  position: fixed;
+  z-index: 10000;
+  background-size: 100px;
+  background-color: #243455;
+  margin-top: 3px;
+}
+
+.sponsoring img{
+  width: 130px;
+  height: 40px;
+  transform: inherit;
+  margin-top: 40px;
+}
+
+button {
+	margin-top: 10px;
+	font-size: 5.5px;
+	width: 64px;
+}
+
+/* if screen size is less than 1500px */
+@media screen and (max-width: 1500px) {
+.logostyle { 
+	width: 100%;
+	height: 40px;
+  position: fixed;
+  z-index: 9999;
+  background-size: 200px;
+  background-color: #243455;
+  margin: 0px;
+  margin-top: -2px;
+}
+
+.logohd {
+	width: 20px;
+	height: 30px;
+  float: center;
+  position: fixed;
+  z-index: 10000;
+  background-size: 100px;
+  background-color: #243455;
+  margin-top: 3px;
+}
+
+.sponsoring img{
+  width: 130px;
+  height: 40px;
+  transform: inherit;
+  margin-top: 40px;
+}
+
+button {
+	margin-top: 15px;
+	font-size: 4.5px;
+	width: 46px;
+	padding: 1px;
+	margin-bottom: 5px;
+}
+}
+
+/* if screen size is less than 1080px */
+@media screen and (max-width: 1080px) {
+.logostyle { 
+	width: 100%;
+	height: 40px;
+  position: fixed;
+  z-index: 9999;
+  background-size: 200px;
+  background-color: #243455;
+  margin: 0px;
+  margin-top: -2px;
+}
+
+.logohd {
+	width: 20px;
+	height: 30px;
+  float: center;
+  position: fixed;
+  z-index: 10000;
+  background-size: 100px;
+  background-color: #243455;
+  margin-top: 3px;
+}
+
+.sponsoring img{
+  width: 130px;
+  height: 40px;
+  transform: inherit;
+  margin-top: 40px;
+}
+
+button {
+	margin-top: 15px;
+	font-size: 4.5px;
+	width: 46px;
+	padding: 1px;
+	margin-bottom: 5px;
+}
+}
+
+/* if screen size is less than 992px */
+@media screen and (max-width: 992px) {
+.logostyle { 
+	width: 100%;
+	height: 40px;
+  position: fixed;
+  z-index: 9999;
+  background-size: 200px;
+  background-color: #243455;
+  margin: 0px;
+  margin-top: -2px;
+}
+
+.logohd {
+	width: 30px;
+	height: 30px;
+  float: center;
+  position: fixed;
+  z-index: 10000;
+  background-size: 100px;
+  background-color: #243455;
+  margin-top: 3px;
+}
+
+.sponsoring img{
+  width: 130px;
+  height: 40px;
+  transform: inherit;
+  margin-top: 40px;
+}
+
+button {
+	margin-top: 15px;
+	font-size: 4.5px;
+	width: 46px;
+	padding: 1px;
+	margin-bottom: 5px;
+}
+}
+
+/* if screen size is less than 767px */
+@media screen and (max-width: 767px) {
+  .logostyle { 
+	width: 100%;
+	height: 60px;
+  position: fixed;
+  z-index: 9999;
+  background-size: 200px;
+  background-color: #243455;
+  margin: 0px;
+  margin-top: -2px;
+}
+
+.logohd {
+	width: 30px;
+	height: 30px;
+  float: center;
+  position: fixed;
+  z-index: 10000;
+  background-size: 100px;
+  background-color: #243455;
+  margin-top: 10px;
+}
+
+.sponsoring img{
+  width: 130px;
+  height: 40px;
+  transform: inherit;
+  margin-top: 60px;
+}
+button {
+	margin-top: 25px;
+	font-size: 3.5px;
+	width: 45px;
+	padding: 1px;
+}
+
+}
+
+/* if screen size is less than 479px */
+@media screen and (max-width: 479px) {
+  .logostyle { 
+	width: 100%;
+	height: 60px;
+  position: fixed;
+  z-index: 9999;
+  background-size: 200px;
+  background-color: #243455;
+  margin: 0px;
+  margin-top: -2px;
+}
+
+.logohd {
+	width: 30px;
+	height: 30px;
+  float: center;
+  position: fixed;
+  z-index: 10000;
+  background-size: 100px;
+  background-color: #243455;
+  margin-top: 10px;
+}
+
+.sponsoring img{
+  width: 130px;
+  height: 40px;
+  transform: inherit;
+  margin-top: 60px;
+}
+button {
+	margin-top: 25px;
+	font-size: 3.5px;
+	width: 45px;
+	padding: 1px;
+}
+
+}
+
+
+
+
+
+body {
+	margin: 0px;
+	font-family: Arial;
+	overflow-x: hidden;
+	background-color: #fdf3e8;
+}
+
+
+
+
+.sponsoring2 img{
+  width: 290px;
+  height: 180px;
+  transform: inherit;
+  margin-top: 2px;
+  margin-bottom: 1px;
+}
+
+.sponsoring2 a{
+  all: initial;
+}
+
+
+
+
+#submit_form2 {
+	width: 150px;
+	height: auto;
+	border-radius: 5px;
+	color: #243455;
+	background-color: white;
+	font-size: 6px;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-left: -1px;
+	margin-right: -1px;
+	font-family: Arial;
+	-webkit-transform: scaleY(1.2);
+    transform: scaleY(1.2);
+}
+
+.logostyle a{
+  all: initial;
+}
+
+.logohd a{
+  all: initial;
+}
