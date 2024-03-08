@@ -285,9 +285,16 @@ a {
 	font-family: Arial;
 	background-color: #243455;
 }
-/* if screen size is more than 992px */
+/* if screen size is more than 3000px */
 body {
   zoom: 160%;
+}
+
+/* if screen size is less than 3000px */
+@media screen and (max-width: 3000px) {
+  body {
+    zoom: 180%;
+  }
 }
 
 /* if screen size is less than 2000px */
