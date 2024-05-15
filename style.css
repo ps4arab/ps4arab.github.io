@@ -307,21 +307,21 @@ body {
 /* if screen size is less than 992px */
 @media screen and (max-width: 992px) {
   body {
-    zoom: 100%;
+    zoom: 120%;
   }
 }
 
 /* if screen size is less than 600px */
 @media screen and (max-width: 600px) {
   body {
-    zoom: 65%;
+    zoom: 120%;
   }
 }
 
 /* if screen size is less than 500px */
 @media screen and (max-width: 500px) {
   body {
-    zoom: 60%;
+    zoom: 120%;
   }
 }
 
