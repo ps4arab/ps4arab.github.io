@@ -1,463 +1,510 @@
-h2 {
-	text-align: center;
-	background-color: white;
-	color: #243455;
-	padding: 5px;
-	margin: 0px;
-	font-size: 15px;
-	font-family: Fantasy, Times, serif;
-	font-weight: 300;
-	font-family: Arial;
-}
-input {
-	width: 170px;
-	padding-top: 7px;
-	padding-bottom: 7px;
-	margin-top: 10px;
-	margin-bottom: 5px;
-	color: #243455;
-	background-color: white;
-	text-align: center;
-	font-size: 7px;
-	border-width: 1px;
-	height: 2px;
-	font-family: Arial;
+/* CSS reset */
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
-p {
-	font-size: 8px;
-	padding-top: 5px;
-	color: black;
-	font-weight: bold;
-	font-family: Arial;
-	max-width: 24ch;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-/*
-p:hover{
-    overflow: visible; 
-    white-space: normal; 
-}*/
+html { font-size: 62.5%; }
 
-table {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	border-width: 0px;
-	border-color: #D2D2D2;
-	font-family: Arial;
-}
-tbody {
-	font-size: 10px;
-	padding-top: 5px;
-	font-weight: bold;
-	font-family: Arial;
-}
-
-button {
-	width: 73px;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	margin-left: -1.3px;
-	margin-right: -1.3px;
-	margin-top: 10px;
-	margin-bottom: 5px;
-	color: #243455;
-	background-color: white;
-	text-align: center;
-	font-size: 5.5px;
-	font-weight: bold;
-	border-width: 1px;
-	border-radius: 5px;
-	font-family: Arial;
-	-webkit-transform: scaleY(1.2);
-    transform: scaleY(1.2);
-}
-.anythingtoscalecontenttoppage:before { 
-	content: "WELCOME TO 0PLAYSTATION.COM";
-}
-.anythingtoscalestyletoppage { 
-	text-align: center;
-	font-size: 12px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-bottom: 8px;
-	font-weight: bold;
-	background-color: #243455;
-	color: white;
-	font-family: Fantasy, Times, serif;
-	font-weight: 300;
-}
-
-
-
-.newupdates1:after { 
-	/*content: "Daily Update Game : 7/3/2024 : اخر التحديثات التي تم اضافتها ";*/
-}
-.newupdates1style { 
-	text-align: center;
-	font-size: 9px;
-	padding-top: 5px;
-	padding-left: 100px;
-	padding-right: 100px;
-	margin-bottom: 2px;
-	padding-bottom: 2px;
-	color: #243455;
-	font-weight: bold;
-	text-decoration: underline;
-	font-family: Arial;
-}
-/*
-.newupdates2:after { 
-	content: "New game (PS4) : Emergency Crew Volcano Eruption";
-}
-.newupdates2style { 
-	text-align: center;
-	font-size: 7px;
-	padding-top: 2px;
-	padding-left: 100px;
-	padding-right: 100px;
-	margin-bottom: 2px;
-	padding-bottom: 2px;
-	color: black;
-	font-weight: bold;
-	font-family: Arial;
-}
-.newupdates3:after { 
-	content: "New game (PS4) : Alisa Developers Cut";
-}
-.newupdates3style { 
-	text-align: center;
-	font-size: 7px;
-	padding-top: 2px;
-	padding-left: 100px;
-	padding-right: 100px;
-	margin-bottom: 2px;
-	padding-bottom: 2px;
-	color: black;
-	font-weight: bold;
-	font-family: Arial;
-}
-.newupdates4:after { 
-	content: "New game (PS4) : Dakar Desert Rally";
-}
-.newupdates4style { 
-	text-align: center;
-	font-size: 7px;
-	padding-top: 2px;
-	padding-left: 100px;
-	padding-right: 100px;
-	margin-bottom: 2px;
-	padding-bottom: 2px;
-	color: black;
-	font-weight: bold;
-	font-family: Arial;
-}
-
-.newupdates5:after { 
-	content: "New game (PS4) : Warm Snow";
-}
-.newupdates5style { 
-	text-align: center;
-	font-size: 7px;
-	padding-top: 2px;
-	padding-left: 100px;
-	padding-right: 100px;
-	margin-bottom: 2px;
-	padding-bottom: 2px;
-	color: black;
-	font-weight: bold;
-	font-family: Arial;
-}
-
-.newupdates6:after { 
-	content: "New game (PS4) : Emergency Call The Attack Squad";
-}
-.newupdates6style { 
-	text-align: center;
-	font-size: 7px;
-	padding-top: 2px;
-	padding-left: 100px;
-	padding-right: 100px;
-	margin-bottom: 2px;
-	padding-bottom: 2px;
-	color: black;
-	font-weight: bold;
-	font-family: Arial;
-}
-*/
-/*
-.newupdates7:after { 
-	content: "New game (PS5) : Aspulov End of Gods";
-}
-.newupdates7style { 
-	text-align: center;
-	font-size: 7px;
-	padding-top: 2px;
-	padding-left: 100px;
-	padding-right: 100px;
-	margin-bottom: 2px;
-	padding-bottom: 2px;
-	color: black;
-	font-weight: bold;
-	font-family: Arial;
-}
-*/
-/*
-.newupdates8:after { 
-	content: "";
-}
-.newupdates8style { 
-	text-align: center;
-	font-size: 7px;
-	padding-top: 2px;
-	padding-left: 100px;
-	padding-right: 100px;
-	margin-bottom: 2px;
-	padding-bottom: 2px;
-	color: black;
-	font-weight: bold;
-	font-family: Arial;
-}
-*/
-/*
-.newupdates9:after { 
-	content: "";
-}
-.newupdates9style { 
-	text-align: center;
-	font-size: 7px;
-	padding-top: 2px;
-	padding-left: 100px;
-	padding-right: 100px;
-	margin-bottom: 2px;
-	padding-bottom: 2px;
-	color: black;
-	font-weight: bold;
-	font-family: Arial;
-}
-*/
-/*
-.newupdates10:after { 
-	content: "";
-}
-.newupdates10style { 
-	text-align: center;
-	font-size: 7px;
-	padding-top: 2px;
-	padding-left: 100px;
-	padding-right: 100px;
-	margin-bottom: 5px;
-	padding-bottom: 5px;
-	color: black;
-	font-weight: bold;
-	font-family: Arial;
-}
-*/
-
-
-.anythingtoscalecontentfoot:after { 
-	content: "THANKS FOR YOUR VISIT";
-}
-.anythingtoscalestylefoot { 
-	text-align: center;
-	font-size: 10px;
-	padding-top: 5px;
-	margin-bottom: 5px;
-	padding-bottom: 5px;
-	background-color: #243455;
-	color: white;
-	font-family: Arial;
-}
-
-img {
-	width: 108px;
-	height: 140px;
-}
-
-
-
-a {
-	font-size: 7px;
-	font-weight: bold;
-	letter-spacing: -0.50px;
-	font-family: Arial;
-	background-color: #243455;
-}
-/* if screen size is more than 3000px */
 body {
-  zoom: 160%;
-}
-
-/* if screen size is less than 3000px */
-@media screen and (max-width: 3000px) {
-  body {
-    zoom: 180%;
-  }
-}
-
-/* if screen size is less than 2000px */
-@media screen and (max-width: 2000px) {
-  body {
-    zoom: 180%;
-  }
-}
-
-/* if screen size is less than 992px */
-@media screen and (max-width: 992px) {
-  body {
-    zoom: 120%;
-  }
-}
-
-/* if screen size is less than 600px */
-@media screen and (max-width: 600px) {
-  body {
-    zoom: 120%;
-  }
-}
-
-/* if screen size is less than 500px */
-@media screen and (max-width: 500px) {
-  body {
-    zoom: 120%;
-  }
-}
-
-#submit_form {
-	width: 65px;
-	height: auto;
-	border-radius: 5px;
-	color: #243455;
-	background-color: white;
-	font-size: 6px;
-	font-weight: bold;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	margin-left: -1px;
-	margin-right: -1px;
-	font-family: Arial;
-	-webkit-transform: scaleY(1.2);
-    transform: scaleY(1.2);
-}
-.videologo {
-	background: rgb(27,33,43);
-	background: linear-gradient(180deg, rgba(27,33,43,1) 11%, rgba(11,15,17,1) 86%, rgba(8,17,20,1) 97%);
-}
-
-a:link    {color:white;}  /* unvisited link  */
-a:visited {color:#D2D2D2;}  /* visited link    */
-a:hover   {color:#D2D2D2;}  /* mouse over link */
-a:active  {color:#D2D2D3;}  /* selected link   */ 
-
-a:link    {text-decoration: none;}   /* unvisited link  */
-a:visited {text-decoration: none;}   /* visited link    */
-a:hover   {text-decoration: none;}  /* mouse over link */
-a:active  {text-decoration: none;}   /* selected link   */ 
-
-a {
-        width: 7px;
-        height: 3px;
-        padding: 2px;
-		margin-bottom: 10px;
-        background: #243455;
-        border: 1px outset #C6C6C6;
-		border-style: outset outset outset outset;
-        color: white;
-        text-align: center;
-		border-radius: 2px;
-		background-color: #243455;
-      }
-
-
-	  
-.gameinline {
-	display: inline-block;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 5px;
-	padding-right: 5px;
-	margin-left: 2px;
-	margin-right: 2px;
-	margin-top: 10px;
-	text-align: center;
-	flex: auto;
-	border: 1px solid #C6C6C6;
-	background-color: #e9ebe9;
-}
-body {
-	text-align: center;
-}
-span {
-	font-size: 8px;
-	padding-top: 5px;
-	color: black;
-	font-weight: bold;
-	font-family: Arial;
-}
-
-/*
-img:hover
-{
-	transition: 0.9s;
-	transform: scale(1.5);
-	transition: transform 0.5s ease-in-out;
-}
-*/
-
-
-
-
-
-
-
-
-
-
-
-.flip-box {
-  background-color: transparent;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
-
-/* This container is needed to position the front and back side */
-.flip-box-inner {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
   position: relative;
-  width: 110px;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-box:hover .flip-box-inner {
-  transform: rotateY(180deg);
+body {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
-/* Position the front and back side */
-.flip-box-front, .flip-box-back {
-  position: absolute;
-  width: 110px;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
+body{
+zoom: 150%;
 }
 
-/* Style the front side (fallback if image is missing) */
-.flip-box-front {
-  background-color: #bbb;
+
+
+@media only screen and (max-width: 600px) {
+  body {
+  zoom: 90%;
+  }
+}
+
+
+
+@media only screen and (min-width: 1080px) {
+  body {
+  zoom: 140%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  body {
+  zoom: 170%;
+  }
+}
+
+
+
+
+/* Typography =======================*/
+
+/* Headings */
+
+/* Main heading for card's front cover */
+.card-front__heading {
+  font-size: 1.5rem;
+  margin-top: .25rem;
+}
+
+/* Main heading for inside page */
+.inside-page__heading { 
+  padding-bottom: 1rem; 
+  width: 100%;
+}
+
+/* Mixed */
+
+/* For both inside page's main heading and 'view me' text on card front cover */
+.inside-page__heading,
+.card-front__text-view {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-top: .3rem;
+}
+
+.inside-page__heading--city,
+.card-front__text-view--city { color: white; }
+
+.inside-page__heading--ski,
+.card-front__text-view--ski { color: black; }
+
+.inside-page__heading--beach,
+.card-front__text-view--beach { color: black; }
+
+.inside-page__heading--camping,
+.card-front__text-view--camping { color: black; }
+
+/* Front cover */
+
+.card-front__tp { color: white; }
+
+/* For pricing text on card front cover */
+.card-front__text-price {
+  font-size: 1.2rem;
+  margin-top: -.2rem;
+  margin-bottom: 10rem;
+}
+
+/* Back cover */
+
+/* For inside page's body text */
+.inside-page__text {
   color: black;
 }
 
-/* Style the back side */
-.flip-box-back {
-  background-color: dodgerblue;
-  color: white;
+/* Icons ===========================================*/
+
+.card-front__icon {
+  fill: #fafbfa;
+  font-size: 3vw;
+  height: 3.25rem;
+  margin-top: -.5rem;
+  width: 3.25rem;
+}
+
+/* Buttons =================================================*/
+
+.inside-page__btn {
+  background-color: white;
+  border: 2px solid;
+  border-radius: .2rem;
+  border-color: grey;
+  font-size: 0.7rem;
+  font-weight: 600;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  transition: all .3s ease;
+  width: 85%;
+  height: 5%;
+  z-index: 10;
+  padding: 0px;
+  margin: 1px;
+}
+
+.inside-page__btn::before { 
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: scaleY(0);
+  transition: all .3s ease;
+  width: 100%;
+  z-index: -1;
+}
+
+.inside-page__btn--city { 
+  border-color: #d3d3d3;
+  color: black;
+  border-width: 2px;
+  padding: 5px;
+}
+
+.inside-page__btn--city::before { 
+  background-color: #024B9A;
+}
+
+.inside-page__btn--ski { 
+  border-color: #279eb2;
+  color: #279eb2;
+}
+
+.inside-page__btn--ski::before { 
+  background-color: #279eb2;
+}
+
+.inside-page__btn--beach { 
+  border-color: #fa7f67;
+  color: #fa7f67;
+}
+
+.inside-page__btn--beach::before { 
+  background-color: #fa7f67;
+}
+
+.inside-page__btn--camping { 
+  border-color: #00b97d;
+  color: #00b97d;
+}
+
+.inside-page__btn--camping::before { 
+  background-color: #00b97d;
+}
+
+.inside-page__btn:hover { 
+  color: orange;
+}
+
+
+
+/* Layout Structure=========================================*/
+
+.main {
+  background: white;
+
+  );
+
+
+ 
+
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Container to hold all cards in one place */
+.card-area {
+  color: black;
+  align-items: center;
+  display: table-cell;
+  height: 100%;
+  justify-content: space-evenly;
+  padding-left: 90px;
+  padding-right: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+.card-area {
+  padding-left: 80px;
+}
+}
+
+/* Card ============================================*/
+
+/* Area to hold an individual card */
+.card-section {
+  align-items: center;
+  display: table-cell;
+  height: 100%;
+  justify-content: center;
+  width: 98%;
+  margin: 2px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-section {
+  padding-right: 0px;
+  }
+}
+
+/* A container to hold the flip card and the inside page */
+.card {
+  background-color: rgba(0,0,0, .05);
+  height: 50rem;
+  position: relative;
+  transition: all 1s ease;
+  width: 15rem;
+}
+
+
+
+/* Flip card - covering both the front and inside front page */
+
+
+
+/* The outer container's visibility is set to hidden. This is to make everything within the container NOT set to hidden  */
+/* This is done so content in the inside page can be selected */
+.flip-card > * {
+  visibility: hidden;
+}
+
+
+
+.card-front,
+.card-back {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* Styling for the front side of the flip card */
+
+/* container for the front side PS4 Cover Color*/
+.card-front {
+  background-image: linear-gradient(to right, #024B9A , #0185CD);
+);
+}
+
+.card-front {
+  height: 16rem;
+  width: 15rem;
+}
+
+/* Front side's top section */
+.card-front__tp {
+  align-items: center;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 57% 90%, 50% 100%, 43% 90%, 0 90%);
+  display: flex;
+  flex-direction: column;
+  height: 12rem;
+  justify-content: center;
+  padding: .75rem;
+}
+
+.card-front__tp--city {
+  background: linear-gradient(
+    to bottom,
+    #000000,
+    #000000
+  );
+}
+
+.card-front__tp--ski {
+  background: linear-gradient(
+    to bottom,
+    #47c2d7,
+    #279eb2
+  );
+}
+
+.card-front__tp--beach {
+  background: linear-gradient(
+    to bottom,
+    #fb9b88,
+    #f86647
+  );
+}
+
+.card-front__tp--camping {
+  background: linear-gradient(
+    to bottom,
+    #00db93,
+    #00b97d
+  );
+}
+
+/* Front card's bottom section */
+.card-front__bt {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* Styling for the back side of the flip card */
+
+.card-back {
+  background-image: linear-gradient(to right, #024B9A , #0185CD);
   transform: rotateY(180deg);
 }
+
+/* Specifically targeting the <video> element */
+.video__container {
+  clip-path: polygon(0% 0%, 100% 0%, 90% 50%, 100% 100%, 0% 100%);
+  height: auto;
+  min-height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Inside page */
+
+.inside-page {
+  background-color: #F1F1F1;
+  height: 100%;
+  padding: 0.5rem;
+  position: absolute;
+  right: 0;
+  transition: all 1s ease;
+  width: 15.5rem;
+  z-index: 1;
+  border: 2px solid #d3d3d3;
+}
+
+.inside-page__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center; 
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Functionality ====================================*/
+
+
+
+/* When the card is hovered, the flip card container will rotate */
+.card:hover .flip-card__container {
+  transform: rotateY(-180deg);
+}
+
+/* When the card is hovered, the shadow on the inside page will shrink to the left */
+
+
+/* Footer ====================================*/
+
+.footer {
+  background-color: #333;
+   margin-top: 3rem;
+  padding: 1rem 0;
+  width: 30%;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* menu collapsable right 
+
+
+.navbar{
+  overflow: hidden;
+  height: 63px;
+}
+
+.navbar a {
+  background-color: black;
+  float: right;
+  posision: fixed;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar ul {
+  margin: 8px 0 0 0;
+  list-style: none;
+}
+
+.navbar a:hover{
+  color: black;
+  background-color: black;
+}
+
+.side-nav{
+  float: right;
+  height: 100%;
+  width: auto;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  opacity: 0.9;
+  overflow-x: hidden; 
+  transition: 0.5s;
+}
+
+#main h1 {
+  transition: 0.5s;
+}
+
+.side-nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #aaa;
+}
+
+.side-nav a:hover{
+  color:#fff;
+  font-size: 20px;
+}
+
+.btn-close{
+  font-size: 34px;
+  color: #ddd;
+  position: auto;
+  top: 0;
+  right: 22px;
+  text-decoration: none;
+  background-color:        rgba(255,255,255,0.3);
+}
+
+ menu collapsable right */
+
+
 
 
 
@@ -465,13 +512,6 @@ img:hover
 /*
 social button
 */
-
-.footer-text {
-  color: #fff;
-  font-size: 1.2rem;
-  text-align: center;
-}	
-
 
 .social-buttons {
   display: flex;
@@ -492,7 +532,6 @@ social button
   border-radius: 100%;
   background: #fff;
   text-align: center;
-  background-color: #243455;
 }
 .social-button::after {
   content: "";
@@ -614,498 +653,145 @@ social button
   background: #3b7bbf;
 }
 
+
+
+
+
 /*
-social button
+loading
+*/
+/* The Loader */
+#loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  overflow: hidden;
+}
+.no-js #loader-wrapper {
+  display: none;
+}
+
+#loader {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #63c6e1;
+  -webkit-animation: spin 1.7s linear infinite;
+          animation: spin 1.7s linear infinite;
+  z-index: 11;
+}
+#loader:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #1e90ff;
+  -webkit-animation: spin-reverse 0.6s linear infinite;
+          animation: spin-reverse 0.6s linear infinite;
+}
+#loader:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #0967c2;
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin-reverse {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+@keyframes spin-reverse {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+#loader-wrapper .loader-section {
+  position: fixed;
+  top: 0;
+  width: 51%;
+  height: 100%;
+  background: #ffffff;
+  z-index: 10;
+}
+
+#loader-wrapper .loader-section.section-left {
+  left: 0;
+}
+
+#loader-wrapper .loader-section.section-right {
+  right: 0;
+}
+
+/* Loaded styles */
+.loaded #loader-wrapper .loader-section.section-left {
+  transform: translateX(-100%);
+  transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.loaded #loader-wrapper .loader-section.section-right {
+  transform: translateX(100%);
+  transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.loaded #loader {
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+
+.loaded #loader-wrapper {
+  visibility: hidden;
+  transform: translateY(-100%);
+  transition: all 0.3s 1s ease-out;
+}
+/*
+loading
 */
 
 
 
 
 
-/* fbstories */
-.container-stories {
-  margin: 5px auto;
-  position: relative;
-  overflow: hidden;
-  padding: 0;
-  height: 95px;
-  width: 135px;
-  background-color: #243455;
-  font-size: 6.5px;
-  color: white;
-  border-width: 1px;
-  border-radius: 5px;
-  border: 1px outset #243455;
-}
 
-.container-stories img, .container-stories video {
-  width: 100%;
-  height: 74px;
-  object-fit: cover;
-  font-size: 7px;
-  color: white;
-}
-.user {
-  z-index: 100;
-  border-radius: 14px;
-  margin-left: 2px;
-  position: absolute;
-  top: 84px;
-  background-size: cover;
-  font-size: 7px;
-  color: white;
-  padding: 0;
-}
-
-.close-btn {
-  position: absolute;
-  right: 10px;
-  top: 22px;
-  width: 14px !important;
-  height: 14px !important;
-  z-index: 1;
-  font-size: 7px;
-  color: white;
-}
-.slick-dots {
-  display: none;
-  font-size: 7px;
-  color: white;
-}
-
-
-/* fbstories */
-
-
-
-
-hr {
-	margin-bottom: 0px;
-	margin-top: 2px;
-}
-
-
-
-img {
-  transform: scale(1);
-}
-
-
-.sponsoring img{
-  width: 130px;
-  height: 40px;
-  transform: inherit;
-  margin-top: 30px;
-}
-
-.sponsoring a{
-  all: initial;
-}
-
-
-
-/* if screen size is more than 1920px */
-.logostyle { 
-	width: 100%;
-	height: 40px;
-  position: fixed;
-  z-index: 9999;
-  background-size: 200px;
-  background-color: #243455;
-  margin: 0px;
-  margin-top: -2px;
-}
-
-.logohd {
-	width: 30px;
-	height: 30px;
-  float: center;
-  position: fixed;
-  z-index: 10000;
-  background-size: 100px;
-  background-color: #243455;
-  margin-top: 3px;
-}
-
-.sponsoring img{
-  width: 130px;
-  height: 40px;
-  transform: inherit;
-  margin-top: 40px;
-}
-
-button {
-	margin-top: 10px;
-	font-size: 5.5px;
-	width: 64px;
-}
-
-/* if screen size is less than 1500px */
-@media screen and (max-width: 1500px) {
-.logostyle { 
-	width: 100%;
-	height: 40px;
-  position: fixed;
-  z-index: 9999;
-  background-size: 200px;
-  background-color: #243455;
-  margin: 0px;
-  margin-top: -2px;
-}
-
-.logohd {
-	width: 30px;
-	height: 30px;
-  float: center;
-  position: fixed;
-  z-index: 10000;
-  background-size: 100px;
-  background-color: #243455;
-  margin-top: 3px;
-}
-
-.sponsoring img{
-  width: 130px;
-  height: 40px;
-  transform: inherit;
-  margin-top: 40px;
-}
-
-button {
-	margin-top: 15px;
-	font-size: 4.5px;
-	width: 46px;
-	padding: 1px;
-	margin-bottom: 5px;
-}
-}
-
-/* if screen size is less than 1080px */
-@media screen and (max-width: 1080px) {
-.logostyle { 
-	width: 100%;
-	height: 40px;
-  position: fixed;
-  z-index: 9999;
-  background-size: 200px;
-  background-color: #243455;
-  margin: 0px;
-  margin-top: -2px;
-}
-
-.logohd {
-	width: 20px;
-	height: 20px;
-  float: center;
-  position: fixed;
-  z-index: 10000;
-  background-size: 100px;
-  background-color: #243455;
-  margin-top: 8px;
-}
-
-.sponsoring img{
-  width: 130px;
-  height: 40px;
-  transform: inherit;
-  margin-top: 40px;
-}
-
-button {
-	margin-top: 15px;
-	font-size: 4.5px;
-	width: 46px;
-	padding: 1px;
-	margin-bottom: 5px;
-}
-}
-
-/* if screen size is less than 992px */
-@media screen and (max-width: 992px) {
-.logostyle { 
-	width: 100%;
-	height: 40px;
-  position: fixed;
-  z-index: 9999;
-  background-size: 200px;
-  background-color: #243455;
-  margin: 0px;
-  margin-top: -2px;
-}
-
-.logohd {
-	width: 30px;
-	height: 30px;
-  float: center;
-  position: fixed;
-  z-index: 10000;
-  background-size: 100px;
-  background-color: #243455;
-  margin-top: 3px;
-}
-
-.sponsoring img{
-  width: 130px;
-  height: 40px;
-  transform: inherit;
-  margin-top: 40px;
-}
-
-button {
-	margin-top: 15px;
-	font-size: 4.5px;
-	width: 46px;
-	padding: 1px;
-	margin-bottom: 5px;
-}
-}
-
-/* if screen size is less than 767px */
-@media screen and (max-width: 767px) {
-  .logostyle { 
-	width: 100%;
-	height: 60px;
-  position: fixed;
-  z-index: 9999;
-  background-size: 200px;
-  background-color: #243455;
-  margin: 0px;
-  margin-top: -2px;
-}
-
-.logohd {
-	width: 30px;
-	height: 30px;
-  float: center;
-  position: fixed;
-  z-index: 10000;
-  background-size: 100px;
-  background-color: #243455;
-  margin-top: 10px;
-}
-
-.sponsoring img{
-  width: 130px;
-  height: 40px;
-  transform: inherit;
-  margin-top: 60px;
-}
-button {
-	margin-top: 25px;
-	font-size: 3.5px;
-	width: 45px;
-	padding: 1px;
-}
-
-}
-
-/* if screen size is less than 479px */
-@media screen and (max-width: 479px) {
-  .logostyle { 
-	width: 100%;
-	height: 60px;
-  position: fixed;
-  z-index: 9999;
-  background-size: 200px;
-  background-color: #243455;
-  margin: 0px;
-  margin-top: -2px;
-}
-
-.logohd {
-	width: 30px;
-	height: 30px;
-  float: center;
-  position: fixed;
-  z-index: 10000;
-  background-size: 100px;
-  background-color: #243455;
-  margin-top: 10px;
-}
-
-.sponsoring img{
-  width: 130px;
-  height: 40px;
-  transform: inherit;
-  margin-top: 60px;
-}
-button {
-	margin-top: 25px;
-	font-size: 3.5px;
-	width: 45px;
-	padding: 1px;
-}
-
-}
-
-/* if screen size is less than 399px */
-@media screen and (max-width: 399px) {
-  .logostyle { 
-	width: 100%;
-	height: 60px;
-  position: fixed;
-  z-index: 9999;
-  background-size: 200px;
-  background-color: #243455;
-  margin: 0px;
-  margin-top: -2px;
-}
-
-.logohd {
-	width: 30px;
-	height: 30px;
-  float: center;
-  position: fixed;
-  z-index: 10000;
-  background-size: 100px;
-  background-color: #243455;
-  margin-top: 10px;
-}
-
-.sponsoring img{
-  width: 130px;
-  height: 40px;
-  transform: inherit;
-  margin-top: 60px;
-}
-button {
-	margin-top: 8px;
-	font-size: 3.5px;
-	width: 45px;
-	padding: 1px;
-}
-
-}
-
-
-
-
-
-body {
-	margin: 0px;
-	font-family: Arial;
-	overflow-x: hidden;
-	background-color: #fdf3e8;
-}
-
-
-
-
-.sponsoring2 img{
-  width: 290px;
-  height: 180px;
-  transform: inherit;
-  margin-top: 2px;
-  margin-bottom: 1px;
-}
-
-.sponsoring2 a{
-  all: initial;
-}
-
-
-
-
-#submit_form2 {
-	width: 150px;
-	height: auto;
-	border-radius: 5px;
-	color: #243455;
-	background-color: white;
-	font-size: 6px;
-	font-weight: bold;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	margin-left: -1px;
-	margin-right: -1px;
-	font-family: Arial;
-	-webkit-transform: scaleY(1.2);
-    transform: scaleY(1.2);
-}
-
-.logostyle a{
-  all: initial;
-}
-
-.logohd a{
-  all: initial;
-}
-
-.blink {
-animation: blinker 0.01s linear infinite;
-color: red;
-}
-@keyframes blinker {
-10% {
-opacity: 50;
-}
-}
-
-            #blink {
-                color: #243455;
-                transition: 1s;
-            }
-
-
-
-
-
-i.flag-ps:before, i.flag-palestine:before {
-    background-position: -72px -676px !important;
-}
-
-i.flag::before {
-    display: inline-block;
-    width: 15px;
-    height: 10px;
-	margin-top: -4px;
-    content: "";
-    background: url(https://mdbootstrap.com/img/svg/flags.png) no-repeat -108px -1976px;
-}
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-i.flag:not(.icon) {
-    display: inline-block;
-    width: 14px;
-    height: 10px;
-    margin: 0 .5em 0 0;
-    line-height: 11px;
-    text-decoration: inherit;
-    vertical-align: baseline;
-    backface-visibility: hidden;
-}
-user agent stylesheet
-i {
-    font-style: italic;
-}
-.mdb-flag-selected {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    text-align: center;
-    max-width: 100px;
-    margin: 0 auto;
-    margin-top: 10px;
-}
-.bg-body-tertiary {
-    --mdb-bg-opacity: 1;
-    background-color: rgba(var(--mdb-tertiary-bg-rgb), var(--mdb-bg-opacity)) !important;
-}
-
-
-
-
-
-.newupdates1styleflags { 
-	text-align: center;
-	font-size: 9px;
-	padding-top: 5px;
-	padding-left: 35px;
-	padding-right: 35px;
-	margin-bottom: 2px;
-	padding-bottom: 2px;
-	color: #243455;
-	font-weight: bold;
-	text-decoration: underline;
-	font-family: Arial;
-}
