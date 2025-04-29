@@ -1,0 +1,1218 @@
+/* CSS reset */
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html { font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-family: Candara, sans-serif;
+  position: relative;
+  font-weight: normal;
+}
+
+.main {
+	padding-right: 80px;
+	margin-right: 80px;
+}
+
+body {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+body{
+zoom: 150%;
+}
+
+
+a:hover {
+  color: #B1B1B1;
+}
+
+a {
+  color: #1F2076;
+}
+
+
+.img  {
+ image-rendering: pixelated;
+ filter: contrast(105%);
+ filter: brightness(90%);
+ filter: saturate(0.8);
+  } 
+  
+#img  {
+ image-rendering: pixelated;
+ filter: contrast(105%);
+ filter: brightness(90%);
+ filter: saturate(0.8);
+  } 
+  
+img  {
+ image-rendering: pixelated;
+ filter: contrast(105%);
+ filter: brightness(90%);
+ filter: saturate(0.8);
+  } 
+
+
+@media only screen and (max-width: 600px) {
+  body {
+  zoom: 100%;
+  }
+}
+
+
+
+
+
+/* Typography =======================*/
+
+/* Headings */
+
+/* Main heading for card's front cover */
+.card-front__heading {
+  font-size: 1.5rem;
+  margin-top: .25rem;
+}
+
+/* Main heading for inside page */
+.inside-page__heading { 
+  padding-bottom: 1rem; 
+  width: 100%;
+}
+
+/* Mixed */
+
+/* For both inside page's main heading and 'view me' text on card front cover */
+.inside-page__heading,
+.card-front__text-view {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-top: .3rem;
+}
+
+.inside-page__heading--city,
+.card-front__text-view--city { color: white; }
+
+.inside-page__heading--ski,
+.card-front__text-view--ski { color: black; }
+
+.inside-page__heading--beach,
+.card-front__text-view--beach { color: black; }
+
+.inside-page__heading--camping,
+.card-front__text-view--camping { color: black; }
+
+/* Front cover */
+
+.card-front__tp { color: white; }
+
+/* For pricing text on card front cover */
+.card-front__text-price {
+  font-size: 1.2rem;
+  margin-top: -.2rem;
+  margin-bottom: 10rem;
+}
+
+/* Back cover */
+
+/* For inside page's body text */
+.inside-page__text {
+  color: black;
+}
+
+/* Icons ===========================================*/
+
+.card-front__icon {
+  fill: #fafbfa;
+  font-size: 3vw;
+  height: 3.25rem;
+  margin-top: -.5rem;
+  width: 3.25rem;
+}
+
+/* Buttons =================================================*/
+
+.inside-page__btn {
+  background-color: white;
+  border: 2px solid;
+  border-radius: .2rem;
+  border-color: grey;
+  font-size: 0.7rem;
+  font-weight: 600;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  transition: all .3s ease;
+  width: 85%;
+  height: 5%;
+  z-index: 10;
+  padding: 0px;
+  margin: 1px;
+}
+
+.inside-page__btn::before { 
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: scaleY(0);
+  transition: all .3s ease;
+  width: 100%;
+  z-index: -1;
+}
+
+/* change this if you want to change the border of every game square container */
+.inside-page__btn--city { 
+  border-color: #d3d3d3;
+  color: black;
+  border-width: 1px;
+  padding: 1px;
+  margin: 2px;
+}
+
+.inside-page__btn--city::before { 
+  background-color: #024B9A;
+}
+
+.inside-page__btn--ski { 
+  border-color: #279eb2;
+  color: #279eb2;
+}
+
+.inside-page__btn--ski::before { 
+  background-color: #279eb2;
+}
+
+.inside-page__btn--beach { 
+  border-color: #fa7f67;
+  color: #fa7f67;
+}
+
+.inside-page__btn--beach::before { 
+  background-color: #fa7f67;
+}
+
+.inside-page__btn--camping { 
+  border-color: #00b97d;
+  color: #00b97d;
+}
+
+.inside-page__btn--camping::before { 
+  background-color: #00b97d;
+}
+
+.inside-page__btn:hover { 
+  color: orange;
+}
+
+
+
+/* Layout Structure=========================================*/
+
+.main {
+  background: white;
+
+  );
+
+
+ 
+
+  justify-content: center;
+  height: 90vh;
+  width: 100%;
+}
+
+/* Container to hold all cards in one place */
+.card-area {
+  color: black;
+  align-items: center;
+  display: table-cell;
+  height: 100%;
+  justify-content: space-evenly;
+  padding-left: 115px;
+  padding-right: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+.card-area {
+  padding-left: 80px;
+}
+}
+
+/* Card ============================================*/
+
+/* Area to hold an individual card */
+.card-section {
+  align-items: center;
+  display: table-cell;
+  height: 100%;
+  justify-content: center;
+  width: 98%;
+  margin: 2px;
+  padding-left: 2px;
+  padding-bottom: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-section {
+  padding-right: 0px;
+  }
+}
+
+/* A container to hold the flip card and the inside page */
+.card {
+  height: 50rem;
+  position: relative;
+  transition: all 1s ease;
+  width: 10rem;
+}
+
+
+
+/* Flip card - covering both the front and inside front page */
+
+
+
+/* The outer container's visibility is set to hidden. This is to make everything within the container NOT set to hidden  */
+/* This is done so content in the inside page can be selected */
+.flip-card > * {
+  visibility: hidden;
+}
+
+
+
+.card-front,
+.card-back {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* Styling for the front side of the flip card */
+
+/* container for the front side PS4 Cover Color*/
+.card-front {
+  background-image: linear-gradient(to right, #024B9A , #0185CD);
+);
+}
+
+.card-front {
+  height: 16rem;
+  width: 15rem;
+}
+
+/* Front side's top section */
+.card-front__tp {
+  align-items: center;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 57% 90%, 50% 100%, 43% 90%, 0 90%);
+  display: flex;
+  flex-direction: column;
+  height: 12rem;
+  justify-content: center;
+  padding: .75rem;
+}
+
+.card-front__tp--city {
+  background: linear-gradient(
+    to bottom,
+    #000000,
+    #000000
+  );
+}
+
+.card-front__tp--ski {
+  background: linear-gradient(
+    to bottom,
+    #47c2d7,
+    #279eb2
+  );
+}
+
+.card-front__tp--beach {
+  background: linear-gradient(
+    to bottom,
+    #fb9b88,
+    #f86647
+  );
+}
+
+.card-front__tp--camping {
+  background: linear-gradient(
+    to bottom,
+    #00db93,
+    #00b97d
+  );
+}
+
+/* Front card's bottom section */
+.card-front__bt {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* Styling for the back side of the flip card */
+
+.card-back {
+  background-image: linear-gradient(to right, #024B9A , #0185CD);
+  transform: rotateY(180deg);
+}
+
+/* Specifically targeting the <video> element */
+.video__container {
+  clip-path: polygon(0% 0%, 100% 0%, 90% 50%, 100% 100%, 0% 100%);
+  height: auto;
+  min-height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Inside page */
+
+.inside-page {
+  background-color: white;
+  color: white;
+  opacity: 0.99;
+  height: 90%;
+  padding: 0.5rem;
+  position: absolute;
+  right: 0;
+  transition: all 1s ease;
+  width: 13.5rem;
+  z-index: 1;
+  border: 1px solid #d3d3d3;
+}
+
+.inside-page__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center; 
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Functionality ====================================*/
+
+
+
+/* When the card is hovered, the flip card container will rotate */
+.card:hover .flip-card__container {
+  transform: rotateY(-180deg);
+}
+
+/* When the card is hovered, the shadow on the inside page will shrink to the left */
+
+
+/* Footer ====================================*/
+
+.footer {
+  background-color: #333;
+   margin-top: 3rem;
+  padding: 1rem 0;
+  width: 30%;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* menu collapsable right 
+
+
+.navbar{
+  overflow: hidden;
+  height: 63px;
+}
+
+.navbar a {
+  background-color: black;
+  float: right;
+  posision: fixed;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar ul {
+  margin: 8px 0 0 0;
+  list-style: none;
+}
+
+.navbar a:hover{
+  color: black;
+  background-color: black;
+}
+
+.side-nav{
+  float: right;
+  height: 100%;
+  width: auto;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  opacity: 0.9;
+  overflow-x: hidden; 
+  transition: 0.5s;
+}
+
+#main h1 {
+  transition: 0.5s;
+}
+
+.side-nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #aaa;
+}
+
+.side-nav a:hover{
+  color:#fff;
+  font-size: 20px;
+}
+
+.btn-close{
+  font-size: 34px;
+  color: #ddd;
+  position: auto;
+  top: 0;
+  right: 22px;
+  text-decoration: none;
+  background-color:        rgba(255,255,255,0.3);
+}
+
+ menu collapsable right */
+
+
+
+
+
+
+/*
+social button
+*/
+
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.social-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  width: 32px;
+  height: 32px;
+  text-decoration: none;
+  border-radius: 100%;
+  background: #fff;
+  text-align: center;
+}
+.social-button::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+.social-button:focus, .social-button:hover {
+  color: #fff;
+}
+.social-button:focus::after, .social-button:hover::after {
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  margin-left: calc(-50% - 1px);
+}
+.social-button i,
+.social-button svg {
+  position: relative;
+  z-index: 1;
+  transition: 0.3s;
+}
+.social-button i {
+  font-size: 15.6px;
+}
+.social-button svg {
+  height: 20%;
+  width: 20%;
+}
+.social-button--mail {
+  color: orange;
+}
+.social-button--mail::after {
+  background: orange;
+}
+.social-button--facebook {
+  color: #3b5999;
+}
+.social-button--facebook::after {
+  background: #3b5999;
+}
+.social-button--youtube {
+  color: red;
+}
+.social-button--youtube::after {
+  background: red;
+}
+.social-button--github {
+  color: #6e5494;
+}
+.social-button--github::after {
+  background: #6e5494;
+}
+.social-button--codepen {
+  color: #212121;
+}
+.social-button--codepen::after {
+  background: #212121;
+}
+.social-button--steam {
+  color: #7da10e;
+}
+.social-button--steam::after {
+  background: #7da10e;
+}
+.social-button--snapchat {
+  color: #eec900;
+}
+.social-button--snapchat::after {
+  background: #eec900;
+}
+.social-button--twitter {
+  color: #55acee;
+}
+.social-button--twitter::after {
+  background: #55acee;
+}
+.social-button--instagram {
+  color: brown;
+}
+.social-button--instagram::after {
+  background: brown;
+}
+.social-button--whatsapp {
+  color: green;
+}
+
+.social-button--whatsapp::after {
+  background: green;
+}
+.social-button--tiktok {
+  color: black;
+}
+.social-button--tiktok::after {
+  background: black;
+}
+.social-button--telegram {
+  color: #229ED9;
+}
+.social-button--telegram::after {
+  background: #229ED9;
+}
+.social-button--npmjs {
+  color: #c12127;
+}
+.social-button--npmjs::after {
+  background: #c12127;
+}
+
+.social-button--paypal {
+  color: #3b7bbf;
+}
+
+.social-button--paypal::after {
+  background: #3b7bbf;
+}
+
+
+
+
+
+/*
+loading
+*/
+/* The Loader */
+#loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  overflow: hidden;
+}
+.no-js #loader-wrapper {
+  display: none;
+}
+
+#loader {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #63c6e1;
+  -webkit-animation: spin 1.7s linear infinite;
+          animation: spin 1.7s linear infinite;
+  z-index: 11;
+}
+#loader:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #1e90ff;
+  -webkit-animation: spin-reverse 0.6s linear infinite;
+          animation: spin-reverse 0.6s linear infinite;
+}
+#loader:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #0967c2;
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin-reverse {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+@keyframes spin-reverse {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+#loader-wrapper .loader-section {
+  position: fixed;
+  top: 0;
+  width: 51%;
+  height: 100%;
+  background: #ffffff;
+  z-index: 10;
+}
+
+#loader-wrapper .loader-section.section-left {
+  left: 0;
+}
+
+#loader-wrapper .loader-section.section-right {
+  right: 0;
+}
+
+/* Loaded styles */
+.loaded #loader-wrapper .loader-section.section-left {
+  transform: translateX(-100%);
+  transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.loaded #loader-wrapper .loader-section.section-right {
+  transform: translateX(100%);
+  transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.loaded #loader {
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+
+.loaded #loader-wrapper {
+  visibility: hidden;
+  transform: translateY(-100%);
+  transition: all 0.3s 1s ease-out;
+}
+/*
+loading
+*/
+
+
+
+
+
+
+
+
+
+
+.breakgamename {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  color: black;
+  font-size: 8px;
+}
+
+
+
+
+
+
+
+
+
+/* fix this if you want to makes pages numbers as buttons*/
+/*
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+  height: 45rem;
+  position: relative;
+  transition: all 1s ease;
+  width: 15rem;
+  margin-bottom: -20px;
+}
+\*body {
+  background-image: url('https://i.makeagif.com/media/3-15-2014/pS6luP.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;10%;
+  background-opacity: 
+}*\
+.homecontent {
+width: 90%;
+}
+	.fab .fa-tiktok {
+	color: #111111;
+	filter: drop-shadow(-5px -5px 0 #24f6f0) contrast(150%) brightness(110%);
+	z-index: -1;
+	}
+	
+	.fab .fa-tiktok::after {
+	filter: drop-shadow(5px 5px 0 #F70250) contrast(150%) brightness(110%);
+	z-index: -1;
+	}
+		#searchbar{ 
+			margin: 4px; 
+			padding:10px; 
+			border-radius: 10px; 
+		} 
+		
+		input[type=text] { 
+			width: 25%; 
+			-webkit-transition: width 0.15s ease-in-out; 
+			transition: width 0.15s ease-in-out; 
+			margin: 10px; 
+			padding:10px;
+		} 
+		
+		/* When the input field gets focus, 
+				change its width to 50% */
+		input[type=text]:focus { 
+			width: 30%; 
+		} 
+		.animals { 
+			margin-left: 0%; 
+			display: inline;
+		} 
+	
+/*wave{
+  z-index: -999;
+}
+.wave{
+  z-index: -999;
+}
+#wave{
+  z-index: -999;
+}
+body {
+  background-color: white;
+}
+.wave {
+  position: fixed;
+  top: 0;
+  transform: rotate(80deg);
+  left: 0;
+}
+.wave > div {
+  width: 1500px;
+  height: 1300px;
+  margin-left: -150px;
+  margin-top: -250px;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  opacity: 0.4;
+  position: fixed;
+  top: 3%;
+  left: 10%;
+}
+.wave--one {
+  background: #0af;
+  animation: drift 7000ms infinite linear;
+}
+.wave--two {
+  animation: drift 3000ms infinite linear;
+  opacity: 0.1;
+  background: black;
+}
+.wave--three {
+  animation: drift 7500ms infinite linear;
+  background-color: #77daff;
+}
+@keyframes drift {
+  from {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
+}*/
+
+* { box-sizing: border-box; }
+
+.menu {
+	background-color: black;
+	color: white;
+	height: 3.5rem;
+	overflow: hidden;
+	padding: 0.5rem;
+    font-size: 20px;	
+	transition: height 0.5s ease-out;
+}
+
+.menu.active {
+	height: 300vh;
+	color: white;
+}
+
+.btn-menu {
+	margin-bottom: 17px;
+	color: white;
+	height: 2.5rem;
+	width: 4rem;
+	display: block;
+	text-decoration: none;
+	color: white;	
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjEycHgiIGhlaWdodD0iNnB4IiB2aWV3Qm94PSIwIDAgMTIgNiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpza2V0Y2g9Imh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaC9ucyI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDMuNC40ICgxNzI0OSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+YnVyZ2VyPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc2tldGNoOnR5cGU9Ik1TUGFnZSI+CiAgICAgICAgPGcgaWQ9Imljb24iIHNrZXRjaDp0eXBlPSJNU0FydGJvYXJkR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMy4wMDAwMDAsIC0yOC4wMDAwMDApIiBmaWxsPSIjRkZGRkZGIj4KICAgICAgICAgICAgPHBhdGggZD0iTTIzLDMzLjUgTDIzLDMyLjUgQzIzLDMyLjM2NDU4MjcgMjMuMDQ5NDc4NywzMi4yNDczOTYzIDIzLjE0ODQzNzUsMzIuMTQ4NDM3NSBDMjMuMjQ3Mzk2MywzMi4wNDk0Nzg3IDIzLjM2NDU4MjcsMzIgMjMuNSwzMiBMMzQuNSwzMiBDMzQuNjM1NDE3MywzMiAzNC43NTI2MDM3LDMyLjA0OTQ3ODcgMzQuODUxNTYyNSwzMi4xNDg0Mzc1IEMzNC45NTA1MjEzLDMyLjI0NzM5NjMgMzUsMzIuMzY0NTgyNyAzNSwzMi41IEwzNSwzMy41IEMzNSwzMy42MzU0MTczIDM0Ljk1MDUyMTMsMzMuNzUyNjAzNyAzNC44NTE1NjI1LDMzLjg1MTU2MjUgQzM0Ljc1MjYwMzcsMzMuOTUwNTIxMyAzNC42MzU0MTczLDM0IDM0LjUsMzQgTDIzLjUsMzQgQzIzLjM2NDU4MjcsMzQgMjMuMjQ3Mzk2MywzMy45NTA1MjEzIDIzLjE0ODQzNzUsMzMuODUxNTYyNSBDMjMuMDQ5NDc4NywzMy43NTI2MDM3IDIzLDMzLjYzNTQxNzMgMjMsMzMuNSBMMjMsMzMuNSBaIE0yMywyOS41IEwyMywyOC41IEMyMywyOC4zNjQ1ODI3IDIzLjA0OTQ3ODcsMjguMjQ3Mzk2MyAyMy4xNDg0Mzc1LDI4LjE0ODQzNzUgQzIzLjI0NzM5NjMsMjguMDQ5NDc4NyAyMy4zNjQ1ODI3LDI4IDIzLjUsMjggTDM0LjUsMjggQzM0LjYzNTQxNzMsMjggMzQuNzUyNjAzNywyOC4wNDk0Nzg3IDM0Ljg1MTU2MjUsMjguMTQ4NDM3NSBDMzQuOTUwNTIxMywyOC4yNDczOTYzIDM1LDI4LjM2NDU4MjcgMzUsMjguNSBMMzUsMjkuNSBDMzUsMjkuNjM1NDE3MyAzNC45NTA1MjEzLDI5Ljc1MjYwMzcgMzQuODUxNTYyNSwyOS44NTE1NjI1IEMzNC43NTI2MDM3LDI5Ljk1MDUyMTMgMzQuNjM1NDE3MywzMCAzNC41LDMwIEwyMy41LDMwIEMyMy4zNjQ1ODI3LDMwIDIzLjI0NzM5NjMsMjkuOTUwNTIxMyAyMy4xNDg0Mzc1LDI5Ljg1MTU2MjUgQzIzLjA0OTQ3ODcsMjkuNzUyNjAzNyAyMywyOS42MzU0MTczIDIzLDI5LjUgTDIzLDI5LjUgWiIgaWQ9ImJ1cmdlciIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+) no-repeat center;
+	background-size: 2rem;
+}
+
+.btn-menu.active {
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjExcHgiIGhlaWdodD0iMTFweCIgdmlld0JveD0iMCAwIDExIDExIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggMy40LjQgKDE3MjQ5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5jbG9zZTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHNrZXRjaDp0eXBlPSJNU1BhZ2UiPgogICAgICAgIDxnIGlkPSJpY29uIiBza2V0Y2g6dHlwZT0iTVNBcnRib2FyZEdyb3VwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjQuMDAwMDAwLCAtMjYuMDAwMDAwKSIgZmlsbD0iI0ZGRkZGRiI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0yNC44NTkzNzUsMzQuMzI4MTI1IEMyNC44NTkzNzUsMzQuMTE5NzkwNiAyNC45MzIyOTA5LDMzLjk0MjcwOTEgMjUuMDc4MTI1LDMzLjc5Njg3NSBMMjcuMzc1LDMxLjUgTDI1LjA3ODEyNSwyOS4yMDMxMjUgQzI0LjkzMjI5MDksMjkuMDU3MjkwOSAyNC44NTkzNzUsMjguODgwMjA5NCAyNC44NTkzNzUsMjguNjcxODc1IEMyNC44NTkzNzUsMjguNDYzNTQwNiAyNC45MzIyOTA5LDI4LjI4NjQ1OTEgMjUuMDc4MTI1LDI4LjE0MDYyNSBMMjYuMTQwNjI1LDI3LjA3ODEyNSBDMjYuMjg2NDU5MSwyNi45MzIyOTA5IDI2LjQ2MzU0MDYsMjYuODU5Mzc1IDI2LjY3MTg3NSwyNi44NTkzNzUgQzI2Ljg4MDIwOTQsMjYuODU5Mzc1IDI3LjA1NzI5MDksMjYuOTMyMjkwOSAyNy4yMDMxMjUsMjcuMDc4MTI1IEwyOS41LDI5LjM3NSBMMzEuNzk2ODc1LDI3LjA3ODEyNSBDMzEuOTQyNzA5MSwyNi45MzIyOTA5IDMyLjExOTc5MDYsMjYuODU5Mzc1IDMyLjMyODEyNSwyNi44NTkzNzUgQzMyLjUzNjQ1OTQsMjYuODU5Mzc1IDMyLjcxMzU0MDksMjYuOTMyMjkwOSAzMi44NTkzNzUsMjcuMDc4MTI1IEwzMy45MjE4NzUsMjguMTQwNjI1IEMzNC4wNjc3MDkxLDI4LjI4NjQ1OTEgMzQuMTQwNjI1LDI4LjQ2MzU0MDYgMzQuMTQwNjI1LDI4LjY3MTg3NSBDMzQuMTQwNjI1LDI4Ljg4MDIwOTQgMzQuMDY3NzA5MSwyOS4wNTcyOTA5IDMzLjkyMTg3NSwyOS4yMDMxMjUgTDMxLjYyNSwzMS41IEwzMy45MjE4NzUsMzMuNzk2ODc1IEMzNC4wNjc3MDkxLDMzLjk0MjcwOTEgMzQuMTQwNjI1LDM0LjExOTc5MDYgMzQuMTQwNjI1LDM0LjMyODEyNSBDMzQuMTQwNjI1LDM0LjUzNjQ1OTQgMzQuMDY3NzA5MSwzNC43MTM1NDA5IDMzLjkyMTg3NSwzNC44NTkzNzUgTDMyLjg1OTM3NSwzNS45MjE4NzUgQzMyLjcxMzU0MDksMzYuMDY3NzA5MSAzMi41MzY0NTk0LDM2LjE0MDYyNSAzMi4zMjgxMjUsMzYuMTQwNjI1IEMzMi4xMTk3OTA2LDM2LjE0MDYyNSAzMS45NDI3MDkxLDM2LjA2NzcwOTEgMzEuNzk2ODc1LDM1LjkyMTg3NSBMMjkuNSwzMy42MjUgTDI3LjIwMzEyNSwzNS45MjE4NzUgQzI3LjA1NzI5MDksMzYuMDY3NzA5MSAyNi44ODAyMDk0LDM2LjE0MDYyNSAyNi42NzE4NzUsMzYuMTQwNjI1IEMyNi40NjM1NDA2LDM2LjE0MDYyNSAyNi4yODY0NTkxLDM2LjA2NzcwOTEgMjYuMTQwNjI1LDM1LjkyMTg3NSBMMjUuMDc4MTI1LDM0Ljg1OTM3NSBDMjQuOTMyMjkwOSwzNC43MTM1NDA5IDI0Ljg1OTM3NSwzNC41MzY0NTk0IDI0Ljg1OTM3NSwzNC4zMjgxMjUgTDI0Ljg1OTM3NSwzNC4zMjgxMjUgWiIgaWQ9ImNsb3NlIiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIj48L3BhdGg+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=) no-repeat center;
+		background-size: 2rem;
+}
+
+.btn-menu svg {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.btn-menu span {
+  font-size: 22px;
+  position: relative;
+  top: 4px;
+  color: white;
+}
+
+nav {
+	ul li a {
+		color: white;
+		text-decoration: none;
+
+	}
+}
+
+}
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+button {
+  margin: 2px;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+/* 12 */
+.btn-12{
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+  border:none;
+  box-shadow: none;
+  width: 97%;
+  height: 45px;
+  line-height: 42px;
+  -webkit-perspective: 230px;
+  perspective: 230px;
+  margin-right: 5px;
+}
+.btn-12 span {
+  background: rgb(0,172,238);
+background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+  display: block;
+  position: absolute;
+  width: 97%;
+  height: 45px;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  border-radius: 5px;
+  margin-right: 5px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.btn-12 span:nth-child(1) {
+
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12 span:nth-child(2) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12:hover span:nth-child(1) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.btn-12:hover span:nth-child(2) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+ color: transparent;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+
+.side-menu {
+  display: table-cell;
+  z-index: 9999999999999999999;
+  float: right;
+  top: 0;
+  left: 0;
+  margin: 0px;
+  padding: 0px;
+  height: 30px;
+  width: 60px;
+  list-style-type: none;
+  background: black;
+  color: grey;
+  overflow: hidden;
+  transition: width .3s;
+}
+
+.side-menu:hover {
+  width: 300px;
+  opacity: 0.9;
+  height: 100%;  
+}
+
+.side-menu li {
+  width: 300px;
+  height: 100%;
+}
+
+.side-menu li span {
+  font-size: 1rem;
+  margin: 20px 30px 0 22px;
+  height: 100%;
+}
+
+.side-menu li a {
+  display: block;
+  font-size: 2rem;
+  text-decoration: none;
+  color: grey;
+  height: 60px;
+  padding-left: 10px;
+}
+
+.side-menu li a:hover,
+.side-menu li:first-child a {
+  background-image: linear-gradient(to right, black , grey);
+  display: block;
+}
+
+.logoarabicps4games{
+margin-top: 10px;
+margin-left: 10px;
+position: absolute;
+}
+
+.button {
+  border: 1px solid #d3d3d3;
+  color: black;
+  padding: 8px;
+  text-color: black;
+  text-align: center;
+  text-decoration: Inherit;
+  text-decoration-color: black;
+  display: inline-block;
+  font-size: 11px;
+  margin-top: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.button1 {background-color: #F1F1F1;}
+
+#blink_text{	
+  animation-name:blink;
+  width:280px;
+  animation-duration:2s;
+  animation-timing-function:ease-in;
+  animation-iteration-count:Infinite;
+  }
+@keyframes blink{
+  0%{color:red;}
+  50%{color:yellow;}
+  100%{color:red;}
+
+
+
+
+
+
+
+
+
